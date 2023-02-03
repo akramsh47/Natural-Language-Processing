@@ -1,0 +1,13 @@
+possible_var : (CNAME ("="NUMBER)* ";")* switch
+
+switch : "switch" "(" var_name ")" "{" (case)* "}"
+case :  ("case"|"default") (NUMBER)* ":" CNAME "=" NUMBER ";" "break" ";"
+var_name : CNAME
+
+
+%import common.CNAME
+%import common.LETTER
+%import common.DIGIT
+%import common.NUMBER
+%import common.WS
+%ignore WS
