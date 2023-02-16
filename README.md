@@ -1,6 +1,8 @@
 # Natural-Language-Processing
 Basic code in Python for NLP Course.
 
+Working to optimize the grammar and the code. I've found an ambiguity at semantical.
+
 
 This simple code show how we can implement a parse tree for a switch statement of this type :
 
